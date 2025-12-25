@@ -1,0 +1,36 @@
+
+translate                                                              translate
+
+NAME
+
+  translate - translate text file utility
+
+SYNOPSIS
+
+  translate (options)
+
+DESCRIPTION
+
+  translate is designed to convert the data format of a text file into another
+  data format. Supported data formats include field separated values such as 
+  comma-separated values (CSV).
+  
+  Data formats:
+
+  o comma-separated values (CSV)
+  o tab-separated values (TSV)
+
+OPTIONS
+
+  -i <input file name>
+  -j <input data format: csv|tsv>
+  -o <output file name>
+  -p <output data format: csv|tsv>
+  -r report statistics
+  -v display version
+  -x verbose mode
+  -? print this usage
+
+NOTES
+
+  Copyright 2025 Code Construct Systems (CCS)
